@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    background-color: ghostwhite;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+  
+    
+
+}
+
+.menu {
+    flex-direction: row;
+    display: flex;
+
+    align-items: center;
+}
+
+.menu2,
+.menu_header {
+align-items: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    text-decoration: none;
+}
+
+
+img logo {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+body {
+    background: #ccc
+}
+
+#title,
+.subtitle,
+.title_posts,
+.subtitle_posts,
+.title_footer,
+.footer1 {
+    color: blue;
+    text-align: center;
+
+}
+
+.title_posts,
+.subtitle,
+#title {
+    font-size: 16px;
+    font-style: italic;
+}
+
+article {
+    background: white;
+    padding: 10px 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#logo,
+.img_post_1 {
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+.img_post_1 {
+
+    width: 500px;
+    height: 500px;
+
+}
+
+p {
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
+
+.tipo_Seguro {
+    text-align: center;
+    list-style-position: inside;
+    align-items: center;
+    text-decoration: center;
+
+}
+
+.tipo_Seguro {
+    text-decoration: none;
+
+}
